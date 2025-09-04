@@ -48,18 +48,36 @@ How to Run:
 2. Run the notebook to interact with the menu-driven To-Do List application.
 
 ------------------------------------------------------------
+3. Web Scraping with BeautifulSoup
+Description:
+A Python project that scrapes publicly available data (e.g., news headlines) from websites using the BeautifulSoup library and saves it into a CSV file.
+This project demonstrates how to parse HTML content, extract useful information, and store it for later analysis.
+
+Features:
+- Fetches webpage content using requests.
+- Parses and extracts relevant information (like headlines and links).
+- Stores data in a structured format (CSV file).
+- Easily adaptable for different websites (news, weather, quotes, etc.).
+
+Tech Stack:
+- Python
+- BeautifulSoup (bs4)
+- Requests
+- CSV module
+
+How to Run:
+1. Open WebScrapingApp.ipynb in Jupyter Notebook.
+2. Run the notebook cells in order.
+3. The scraped data will be saved into news_headlines.csv (or similar file) in your working directory.
+
+------------------------------------------------------------
 LEARNING OUTCOMES
 - Gained hands-on experience in Python programming.
 - Learned how to integrate and use REST APIs.
+- Practiced web scraping and HTML parsing.
 - Improved problem-solving and logical thinking through real projects.
 - Practiced using Jupyter Notebook for development.
 - Understood the importance of writing clean, modular, and reusable code.
-
-------------------------------------------------------------
-REPOSITORY STRUCTURE
-- WeatherApp.ipynb        -> Weather Application using API
-- ToDoListApp.ipynb       -> To-Do List Application
-- README.txt              -> Documentation
 
 ------------------------------------------------------------
 INTERNSHIP DETAILS
@@ -67,4 +85,3 @@ INTERNSHIP DETAILS
 - Batch: A53
 - Duration: August 26,2025 - September 26,2025
 - Organization/Institution: Coding Samurai
-
